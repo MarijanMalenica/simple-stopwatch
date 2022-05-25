@@ -1,0 +1,29 @@
+* {
+    margin: 0%;
+}
+
+.container {
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#display {
+    font-size: 10vh;
+    color: rgb(221, 140, 0);
+}
+
+button {
+    width: 7vw;
+    height: 5vh;
+    border: 3px solid rgb(221, 140, 0);
+    background-color: white;
+    font-size: 3vh;
+    border-radius: 15px;
+}
+
+button:active {
+    border: 2px solid rgb(100, 65, 0);
+}
